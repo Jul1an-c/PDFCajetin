@@ -14,7 +14,7 @@ En tareas nos piden que **la primera hoja** lleve sí o un cajetín con:
 
 - Nombre  
 - Nombre completo  
-- Curso / División  
+- Curso 
 - Fecha  
 
 Y claro, se hacen los ejercicios, pero después se pierden **15 minutos** ajustado el cajetín en Word, alineando textos, exportando el PDF, o reimprimiendo porque quedó mal…
