@@ -45,7 +45,7 @@ Elegí el modo que más te convenga:
 **La forma más fácil y rápida**
 
 ### 1. Ir a la sección de Releases  
-👉 https://github.com/tu-usuario/pdfcajetin-mate/releases
+👉 [https://github.com/Jul1an-c/PDFCajetin/releases]
 
 ### 2. Descargar el archivo  
 - `PDFCajetin.exe` 
