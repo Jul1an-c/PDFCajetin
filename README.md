@@ -1,7 +1,7 @@
 # PDFCajetín – Cajetín automático
 
 ![Python](https://img.shields.io/badge/Python-3.14%2B-3776AB?style=flat&logo=python&logoColor=white)
-![Flet](https://img.shields.io/badge/Flet-Interfaz%20bonita-FF6F00?style=flat&logo=flet&logoColor=white)
+![Flet](https://img.shields.io/badge/Flet-Interfaz-FF6F00?style=flat&logo=flet&logoColor=white)
 ![Estado](https://img.shields.io/badge/Estado-Listo%20para%20usar-success)
 ![Uso](https://img.shields.io/badge/Uso-Tareas%20%20·%20Mate-9cf)
 ![Facilidad](https://img.shields.io/badge/Facilidad-100%25-brightgreen)
