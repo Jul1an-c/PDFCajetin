@@ -28,7 +28,7 @@ CARPETA_SALIDA = obtener_carpeta_salida()
 
 # === CARPETA TEMPORAL INTELIGENTE ===
 def obtener_carpeta_temp():
-    if getattr(sys, 'frozen', False):  # Estamos en .exe
+    if getattr(sys, 'frozen', False):  
         temp_dir = os.path.join(tempfile.gettempdir(), "PDFCajetin_temp")
     else:
         temp_dir = os.path.join(os.path.dirname(__file__), "storage", "temp_cajetin")
@@ -37,10 +37,10 @@ def obtener_carpeta_temp():
 
 
 CARPETA_TEMP = obtener_carpeta_temp()
-log(f"Carpeta temporal en uso: {CARPETA_TEMP}")  # Para que veas dónde está trabajando
+log(f"Carpeta temporal en uso: {CARPETA_TEMP}")  # Para que ver dónde está trabajando
 
 
-# === LIMPIEZA TOTAL AL SALIR (funciona siempre, incluso cerrando con la X) ===
+# === LIMPIEZA TOTAL AL SALIR  ===
 def limpiar_al_salir():
     try:
         # Mata procesos de Word colgados
@@ -61,7 +61,7 @@ def limpiar_al_salir():
             pass
 
 
-# Registramos la limpieza de dos formas (una siempre gana)
+# Registramos la limpieza de dos formas 
 import atexit
 atexit.register(limpiar_al_salir)
 
@@ -242,10 +242,10 @@ def main(page: ft.Page):
     )
 
 
-# === ARRANQUE SEGURO CON LIMPIEZA GARANTIZADA ===
+# === ANICIO  ===
 if __name__ == "__main__":
     try:
         ft.app(target=main)
     finally:
-        # Esto se ejecuta SIEMPRE, incluso si cierras con la X
+        # Esto se ejecuta SIEMPRE
         limpiar_al_salir()
