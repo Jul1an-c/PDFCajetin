@@ -62,7 +62,7 @@ No la cierres, se cerrará sola cuando termines o cierres la app.
 
 ---
 
-## 🟩 **Opción B — Instalación con código (para usuarios curiosos o programadores)**
+## 🟩 **Opción B — Instalación con código**
 
 ### **1. Clonar el repositorio**
 ```bash
