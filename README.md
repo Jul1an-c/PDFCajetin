@@ -66,7 +66,7 @@ No la cierres, se cerrará sola cuando termines o cierres la app.
 
 ### **1. Clonar el repositorio**
 ```bash
-git clone https://github.com/tu-usuario/pdfcajetin-mate.git
+git clone https://github.com/Jul1an-c/PDFCajetin
 ```
 
 ### **2. Entrar a la carpeta**
